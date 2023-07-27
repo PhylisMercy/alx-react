@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
     devtool: "inline-source-map",
     devServer: {
-        contentBase: path.join(__dirname, './public'),
+        static: path.resolve(__dirname, 'public'),
         port: 8564,
         liveReload: true,
     },
