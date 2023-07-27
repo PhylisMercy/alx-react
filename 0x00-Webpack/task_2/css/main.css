@@ -1,0 +1,22 @@
+#counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  order: 1;
+}
+
+#count-display {
+  order: 2;
+  font-weight: bold;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/holberton-logo.jpg');
+  background-size: 200px 200px;
+}
+
