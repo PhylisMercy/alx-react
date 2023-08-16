@@ -1,20 +1,5 @@
-import { Map, is } from 'immutable';
+import { is } from 'immutable';
 
-function areMapsEqual(map1, map2) {
-    return is(map1, map2);
-}
+const areMapsEqual = (map1, map2) => is(map1, map2);
 
-// const map1 = new Map(
-//     {
-//       firstName: 'Guillaume',
-//       lastName: 'Salva',
-//     }
-//   );
-//   const map2 = new Map(
-//     {
-//       firstName: 'Guillaume',
-//       lastName: 'Salva',
-//     }
-//   );
-  
-//   console.log(areMapsEqual(map1, map2));
+export default areMapsEqual;
